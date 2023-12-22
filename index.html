@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Mara Zsoldos" />
+    <meta name="keywords" content="sală, fitness, sport, gym, nutriție" />
+    <meta
+      name="description"
+      content="acesta este site-ul unei săli de fitness, fictivă,deschisă în Cluj-Napoca sub numele de Muscle Mania Gym. Aceaasta promovează mișcarea și un regim alimentar corect pentru un stil de viață sănătos"
+    />
+    <title>Muscle Mania Gym</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #ddd;
+      }
+      a {
+        font-family: "Sofia Sans Extra Condensed", sans-serif;
+      }
+      p{
+        font-family: "Sofia Sans Extra Condensed", sans-serif;
+      }
+      .overlap{
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 55px;
+      }
+      h1{
+        font-family: 'Bebas Neue', sans-serif;
+      }
+      h3{
+        font-family: 'Montserrat', sans-serif;
+        color: #1F4172;
+    }  
+      .hero-quote{
+        font-family: 'Bebas Neue', sans-serif;
+      }
+      .c-item {
+        height: 580px;
+      }
+      .c-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.6);
+      }
+      .logo-3{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+      }
+
+    .card{
+        background-color: #ddd;
+        box-shadow: 1px 1px 10px rgb(146, 143, 143);
+        height: 550px;
+    }
+    .img-background{
+      filter: brightness(0.6);
+    }
+    .img-profile{
+      display: block;
+      position: relative;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -130px;
+      box-shadow: 0 0 0 5px rgb(146, 143, 143);
+    }
+    hr{  
+      margin: 50px;
+    }
+    ul li{
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+    .card-prices{
+      background-color: #ddd;
+        box-shadow: 1px 1px 10px rgb(146, 143, 143);
+        height: 350px;
+    }
+    .left-2{
+      width: 50%;
+      height: 600px;
+      background: url(sportive-couple.jpg) no-repeat left / cover;     
+      border-radius: 15px;
+    }
+    .custom-button{
+      background-color: #1F4172;
+      color: white;
+    }
+    .motivation-text{
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    
+    .box-motivation {
+      background-color: #3A3B3C;
+      color: #ddd;
+      box-shadow: 1px 1px 10px rgb(146, 143, 143);
+      width: 50%;
+      height:200px;
+      border-radius: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .box-motivation h2{
+      margin-top: 10px;
+      margin-left: 15px;
+      color: #FFF8C9;
+    }
+    .gallery{
+      padding: 80px 0;
+    }
+    .gallery-item {
+      max-width: 100%;
+    }
+
+    .gallery img {
+      background-color: #1F4172;
+      padding: 5px;
+      width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+
+/*--Telefon--*/
+      @media (max-width: 767px) {
+        .sidebar {
+          background-color: #3A3B3C;
+        }
+        .col-6{
+          width: 100%;
+          
+        }
+        .logo-3{
+          height: 50px;
+        }
+      h2{
+        font-size: 30px;
+      }
+      .img-profile{
+      display: block;
+      position: relative;
+      height: 130px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -80px;
+      box-shadow: 0 0 0 5px rgb(146, 143, 143);
+    }
+    .img-background{
+      filter: brightness(0.6);      
+    }
+    .card{
+        background-color: #ddd;
+        box-shadow: 1px 1px 10px rgb(146, 143, 143);
+        height: 570px;
+    }
+  .box-motivation {
+    width: 90%;
+    height: 210px;
+    box-shadow: 1px 1px 10px rgb(146, 143, 143);
+  } 
+  .box-motivation p{
+    font-size: 13px;
+  } 
+  .box-motivation h2{
+    font-size: 18px;
+  }
+
+} 
+
+/*--Tabletă*/
+  @media (min-width: 768px) and (max-width: 1200px){
+    .box-motivation{
+      height: 240px;
+      width: 90%;
+      font-size: 22px;
+    }
+  }
+  
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!--Logo-->
+        <a class="navbar-brand" href="#">
+          <img
+            src="barbell.png"
+            alt="logo cu o ganteră pe fundal portocaliu cu umbre"
+          />
+        </a>
+        <!--Buton restrângere-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <!--Sidebar-->
+        <div
+          class=" sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+        
+      <!--Sidebar Header-->
+          <div class="offcanvas-header text-white border-bottom">
+            <p class="offcanvas-title fs-3 text-uppercase" id="offcanvasNavbarLabel">MuscleManiaGym</p>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+      <!--Sidebar Body-->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link active fs-2 text-success" aria-current="page" href="#Acasă">Acasă</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link fs-2 text-success" href="#Abonamente">Abonamente</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link fs-2 text-success" href="#Despre-noi">Despre noi</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link fs-2 text-success" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+      </div>
+    </nav>
+    <div id="Acasă"> 
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="sport-2250970_640.jpg" class="d-block w-100 c-img" alt="o tânără blondă cu bustieră și pantaloni negri este pe un covor albastru face exerciții pentru abdomen">
+          <div class="carousel-caption  top-0 mt-4 ">
+            <p class="mt-5 fs-3 text-uppercase">Bucură-te de o experiență unică!</p>
+            <h1 class="display-1 fw-bolder">Muscle Mania Gym</h1>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="training-828726_1280.jpg" class="d-block w-100 c-img" alt="o femeie blondă este la sală în fața unei oglinzi în timp ce ridică două gantere">
+          <div class="carousel-caption top-0 mt-4 ">
+            <p class="mt-5 fs-3 text-uppercase">o echipă de antrenori personali dedicați!</p>
+            <p class="display-1 fw-bolder hero-quote">Fă astăzi ceea ce alții nu vor</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="class3.jpg" class="d-block w-100 c-img" alt="trei femei în bustieră stau în genunci la sală și zâmbesc">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">clase de grup organizate sau private!</p>
+            <p class="display-1 fw-bolder hero-quote">antrenamentul tău, evoluția ta</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="pexels-photo-1308746.jpeg" class="d-block w-100 c-img" alt="o femeie rulează un covor albastru pe parchet">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">descoperă echipamentele noastre de ultimă generație!</p>
+            <p class="display-1 fw-bolder hero-quote">no pain. no gain.</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="fitness-gym-equipment-dumbbells-with-towel.jpg" class="d-block w-100 c-img" alt="un fundal cu o sticlă de apă galbenă, două gantere roz și un prosop mic roz">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">transformă-ți antrenamentele în experiențe remarcabile!</p>
+            <p class="display-1 fw-bolder hero-quote">fiecare efort are recompensele sale.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="mt-4 mb-4 logo-3">
+      <img src="fitness (1).png" alt="un icon cu un tanar sportiv care ridica greutati pe fundal albastru ">
+      <img src="fitness.png" alt="un icon cu o tanara sportiva care ridica greutati pe fundal mov">
+      <img src="running.png" alt="un icon cu un tanar sportiv care alearga">
+      </div>
+
+
+
+<h2 class="text-uppercase  text-center fs-1 text-success mt-3">vino să cunoști echipa noastră!</h2>
+<p class="overlap text-center">Ne mândrim cu echipa noastră de antrenori unde am investit reciproc încredere, devotament și performanță.
+  Antrenorii noștri vă pun la dispoziție cele mai complexe programe de personal training. Disciplină este cheia ce ne duce spre performanță continuă.</p>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mt-3">
+      <div class="card">
+        <div class="img">
+          <img class="img-fluid rounded-top img-background" src="athlete-barbell.jpg" alt="o imagine cu multe greutăți negre aliniate în șir într-o sală fitness">
+          <img class="rounded-circle img-profile" src="m (39).jpg" alt="o poză de profil a unui tânăr băiat brunet care îmbracă o cămașă albastră">
+        </div>
+
+          <div class="card-body">
+            <div class="card-title">
+              <h3>Ștefan Moldovan</h3>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="overlap fst-italic text-success">Antrenor personal. 24 ani. Expert în nutriție.</p>
+                <p class="overlap">„Fiecare zi aduce cu sine provocări unice, însă bucuria de a lucra cu oamenii și de a-i ajuta să-și atingă obiectivele depășește cu mult eforturile.”</p>
+              </div>
+            </div>   
+          </div>
+
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mt-3">
+      <div class="card">
+        <div class="img">
+          <img class="img-fluid rounded-top img-background" src="zen2.jpg" alt="patru pietre albe calcaroase pe care sunt scrise calități în engleză">
+          <img class="rounded-circle img-profile" src="w (11).jpg" alt="o poză de profil cu o tânără fată ce poartă ochelari de soare, este în costum de baie și are părul albastru">
+        </div>
+
+          <div class="card-body">
+            <div class="card-title">
+              <h3>Anastasia Ursu</h3>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="overlap fst-italic text-success">Instructor fitness. 31 ani. </p>
+                <p class="overlap">„Progresul reprezintă o realizare atât pentru ei, cât și pentru mine ca antrenor. Perseverența aduce rezultate și acești oameni devin mai încrezători în ei înșiși.”</p>
+              </div>
+            </div>   
+          </div>
+
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mt-3">
+      <div class="card">
+        <div class="img">
+          <img class="img-fluid rounded-top img-background" src="runners-635906_1280.jpg" alt="două umbre a unor oameni  ce aleargă pe o plajă">
+          <img class="rounded-circle img-profile" src="m (46).jpg" alt="poza de profil unui bărbat ce poartă ochelari de vedere și este îmbrăcat la costum">
+        </div>
+
+          <div class="card-body">
+            <div class="card-title">
+              <h3>Cristian Silaghi</h3>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="overlap fst-italic text-success">Tehnician nutriționist. 43 ani.</p>
+                <p class="overlap">„Interacțiunea cu clienții mei o consider mai mult decât importantă și încerc, cu fiecare antrenament, să îi ajut să își atingă obiectivele dorite.”</p>
+              </div>
+            </div>   
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<hr> 
+<div id="Abonamente">
+<h2 class="text-uppercase text-center fs-1 text-success">ofertele noastre</h2>
+<p class="overlap text-center">Tarifele de PERSONAL TRAINING  se personalizează în funcție de cerințele fiecărui client. Pentru mai multe detalii vă rugăm să ne contactați la adresa de email musclemaniagym@gmail.com</p>
+
+<div class="container mt-4">
+  <div class="row">
+
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card-prices">
+              <div class="card-body">
+                  <h3 class="card-title text-center p-3">Vizitator</h3>
+                  <ul class="card-text">
+                    <li>1 ședință fitness</li>
+                    <li>Acces la vestiare și dușuri</li>
+                    <li>Parcare gratuită</li>
+                    <li>Valabil în ziua achiziționării </li>
+                  </ul>
+                  <h4 class="card-subtitle mb-2 mt-3 text-center">69,99 lei/lună</h4>
+                  <div class="col-md-12 text-center">
+                  <a class="btn custom-button mt-4" href="https://cdn.ebaumsworld.com/mediaFiles/picture/604025/86030610.jpg" target="_blank">Abonează-te</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+<!--Card 2-->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card-prices">
+            <div class="card-body">
+                <h3 class="card-title text-center p-3">No Limit</h3>
+                <ul class="card-text">
+                  <li>Acces zilnic nelimitat</li>
+                  <li>Acces la saună și jacuzzi</li>
+                  <li>Parcare gratuită</li>
+                  <li>Valabil o lună de la data emiterii</li>
+                </ul>
+                <h4 class="card-subtitle mb-2 mt-3 text-center">429,99 lei/lună</h4>
+                <div class="col-md-12 text-center">
+                  <a class="btn custom-button mt-4" href="https://cdn.ebaumsworld.com/mediaFiles/picture/604025/86030610.jpg" target="_blank">Abonează-te</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+<!--Card 3-->
+    <div class="col-md-6 col-lg-3 mb-4">
+      <div class="card-prices">
+          <div class="card-body">
+              <h3 class="card-title text-center p-3">8 Ședințe</h3>
+              <ul class="card-text">
+                <li>8 ședințe fitness</li>
+                <li>Acces la toate facilitățile sălii</li>
+                <li>Parcare gratuită</li>
+                <li>Valabil o lună de la data emiterii</li>
+              </ul>
+              <h4 class="card-subtitle mb-2 mt-3 text-center">269,99 lei/lună</h4>
+              <div class="col-md-12 text-center">
+                <a class="btn custom-button mt-4" href="https://cdn.ebaumsworld.com/mediaFiles/picture/604025/86030610.jpg" target="_blank">Abonează-te</a>
+                </div>
+          </div>
+      </div>
+  </div>
+<!--Card 4-->
+  <div class="col-md-6 col-lg-3 mb-4">
+    <div class="card-prices">
+        <div class="card-body">
+            <h3 class="card-title text-center p-3">12 Ședințe</h3>
+            <ul class="card-text">
+              <li>12 ședințe fitness</li>
+              <li>Acces la toate facilitățile sălii</li>
+              <li>Parcare gratuită</li>
+              <li>Valabil o lună de la data emiterii</li>
+            </ul>
+            <h4 class="card-subtitle mb-2 mt-3 text-center">329,99 lei/lună</h4>
+            <div class="col-md-12 text-center">
+              <a class="btn custom-button mt-4" href="https://cdn.ebaumsworld.com/mediaFiles/picture/604025/86030610.jpg" target="_blank">Abonează-te</a>
+              </div>
+        </div>
+    </div>
+</div>
+  </div>
+</div>
+
+<hr>
+
+</div>
+
+<div id="Despre-noi">
+
+  <div class="box-motivation mt-4">
+  <h2>Misiunea noastră</h2>
+  <p class="motivation-text">Suntem pregătiți să iți îmbunătățim starea și condiția fizică prin antrenamente personalizate.Te ajutăm să slăbești, să adaugi masă musculară sau să iți menții greutatea corporală prin programe de nutriție.Ne dorim să iți găsesti motivația, iar fiecare zi de luni să fie un un pas în plus spre obiectivul tău.</p>
+  </div>
+
+  <div class="box-motivation mt-4">
+    <h2>Valori</h2>
+    <p class="motivation-text">Credem că schimbarea este cheia. Determinarea și ambiția sunt prezente la MuscleManiaGym
+      Vrem să facem din sport un obicei în viața celor care ne trec pragulVrem să facem ca drumul spre schimbare să fie plăcut și să iți schimbe viața</p>
+    </div>
+<hr>
+
+<h2 class="text-uppercase  text-center fs-1 text-success mt-3">Our studio</h2>
+<p class="overlap text-center">De la aparatele noastre de ultimă generație până la clasele de fitness animate de instructori pasionați, fiecare imagine subliniază diversitatea activităților noastre.Prin această galerie foto, vă invităm să vă lăsați inspirați de clipele capturate, să vă alăturați comunității noastre și să începeți călătoria voastră personală către un stil de viață activ și sănătos.</p>
+<section class="gallery min-vh-100">
+  <div class="container-lg">
+    <div class="row  gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div class="col">
+        <img src="active-beautiful-beauty-866027.jpg" alt="două fete în poziție de plank la sală, bat palma" class="gallery-item">
+      </div>
+      <div class="col">
+        <img src="class4.jpg" alt="trei fete sunt la sală pe covoraș roz în poziție de yoga" class="gallery-item">
+      </div>
+      <div class="col">
+        <img src="women-lifting-weights.jpg" alt="trei femei sunt la sală îmbrăcate corespunzător, zâmbesc, stau fiecare pe o minge fitness în timp ce ridică gantere" class="gallery-item">
+      </div>
+      <div class="col">
+        <img src="decorative-fitness-concept.jpg" alt="o pereche de adidași pe fundal lângă două gantere roz, un măr, un ceas, un metru galben, o tăbliță neagră și o ganteră albastră" class="gallery-item">
+      </div>
+      <div class="col">
+        <img src="healthy-woman.jpg" alt="o femeie fotografiată de sus alb-negru, în poziție de yoga" class="gallery-item">
+      </div>
+      <div class="col">
+        <img src="instructor.jpg" alt="un instructor tânăr urlă la megafon îmbrăcat în maieu cu o bandană pe cap" class="gallery-item">
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="logo-3">
+  <img src="fitness (1).png" alt="un icon cu un tanar sportiv care ridica greutati pe fundal albastru ">
+  <img src="fitness.png" alt="un icon cu o tanara sportiva care ridica greutati pe fundal mov">
+  <img src="running.png" alt="un icon cu un tanar sportiv care alearga">
+  </div>
+
+<div id="Contact"></div>
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Unde ne găsești?</h2>
+
+  <div class="row">
+      <div class="col-md-3 mb-4">
+          <h3> <img src="location.png">Adresă</h3>
+          <p class="fs-5">Strada Republicii 35, Cluj-Napoca</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+          <h3> <img src="mail.png">Email</h3>
+          <p class="fs-5">musclemaniagym@gmail.com</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+          <h3><img src="phone-call.png">Telefon</h3>
+          <p class="fs-5">+40 723 456 890</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h3><img src="calendar.png">Program</h3>
+        <p class="fs-5">Luni – Vineri: 07:00-23:00</p>
+        <p class="fs-5">Sambata: 08:00-20:00</p>
+        <p class="fs-5">Duminica: 10:00-18:00</p>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-light text-center py-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h3 class="fs-5 text-white">Contact</h3>
+              <a href="https://academicinfo.ubbcluj.ro" class="text-light overlap" target="_blank">musclemaniagym@gmail.com</a>
+              <p class="overlap">+40 723 456 890</p>
+          </div>
+          <div class="col-md-4 mb-4">
+              <h3 class="fs-5 text-white">Follow Us</h3>
+              <a href="https://www.facebook.com/gymfitnessbeauty/" class="text-light" target="_blank"><img src="facebook.png"></a>
+              <a href="https://www.instagram.com/fitnessnationromania/" class="text-light" target="_blank"><img src="instagram.png"></a>
+              <a href="https://twitter.com/GymBodyFitness_" class="text-light" target="_blank"><img src="twitter.png"></a>
+          </div>
+          <div class="col-md-4">
+              <h3 class="fs-5 text-white">&copy; 2023MManiaGym. Toate drepturile rezervate.</h3>
+                <p class="overlap fst-italic">Designed by <a href="https://www.instagram.com/marazsoldos/" target="_blank" class="overlap fst-italic text-light">MaraZs</a></p>
+          </div>
+      </div>
+  </div>
+</footer>
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
